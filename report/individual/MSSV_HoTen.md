@@ -17,6 +17,8 @@
 ## 2. Kết quả chính
 
 *Chép bảng so sánh cuối Phần 5 (F1 test, F1 SUB 40, p95 ms/tin, USD/1k tin) của chính bạn.*
+<img width="787" height="616" alt="image" src="https://github.com/user-attachments/assets/b2c12a7c-3657-48af-ad3b-130705624808" />
+
 
 ## 3. Dự đoán và thực tế
 
@@ -25,6 +27,7 @@
 ## 4. Phân tích 50 case khó
 
 *Model nào tụt nhiều nhất, ở nhóm case nào? Nêu 2 case cụ thể và cơ chế khiến model sai.*
+BOW+LogReg tụt nhiều nhất khi bị thao túng, giọng tự nhiên và né từ
 
 ## 5. Thử thách cá nhân
 
@@ -33,6 +36,8 @@
 ## 6. Phương án cho sản phẩm thật
 
 *Với yêu cầu p95 < 50 ms/tin cho 10 triệu SMS/ngày: chọn phương án nào, dẫn số liệu nào, chấp nhận đánh đổi gì.*
+Độ trễ: BOW+LR, BOW+MLP Trễ + chất lượng: BOW+MLP tri phí: 0 vì không dùng LLM
+
 
 ## 7. AI log và điều đã học
 
